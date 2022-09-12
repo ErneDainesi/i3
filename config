@@ -30,6 +30,8 @@ font pango:monospace 8
 floating_modifier $mod
 
 exec --no-startup-id ~/.config/i3/autostart/setkeymap
+#exec --no-startup-id feh --bg-scale ~/Pictures/wallpapers/millennium_falcon.png
+#exec --no-startup-id compton -b
 
 # start a terminal
 bindsym $mod+Return exec kitty
